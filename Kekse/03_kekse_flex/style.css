@@ -1,0 +1,84 @@
+*{
+    /* rand der seite entfernen */
+    margin: 0;     /* außenabstand */ 
+    padding: 0;    /* innenabstand */
+}
+
+body {
+    display: grid;
+    /* 3 spalten jeweils gleich groß*/
+    /* fr fraction --> teil
+        px - pixel
+        em - breite eines m
+    */
+    grid-template-columns: 1fr 3fr 1fr;
+    /* 3 zeilen gleich groß */
+    grid-template-rows: 100px 50px 1fr 100px;
+    min-height: 100vh;  /* 100% von höhe */
+                        /* vw --> width*/
+
+ }
+ header{
+    border: 2px solid black;
+    /* header in die erste Zeile zuordnen */
+    grid-row: 1;
+    /* header über alle 3 spalten setzen */
+    grid-column: 1/4;
+ }
+ nav{
+    border: 2px solid black;
+    grid-row: 2;
+    grid-column: 2;
+ }
+ main{
+    border: 2px solid black;
+    grid-row: 3;
+    grid-column: 2;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+ footer{
+    border: 2px solid black;
+    grid-row: 4;
+    grid-column: 1/4;
+ }
+
+.centerer{
+    max-width: 910px;
+}
+
+
+/* ordnet die keksansichten an */
+.cookieJar{
+    border: 2px solid black;
+    display: flex;       /* festlegen, dass die inneren elemente nach flex behandelt werden */
+    flex-direction: row; /* elemente werden in einer zeile angeordnet */
+    flex-wrap: wrap;     /* wenn inhalte zu breit, automatisch Zeilenumbruch*/ 
+}
+/* class für die keksverkaufsansicht
+ wird mit . gekennzeichnet   */
+.KeksAnsicht{
+    width: 170px;
+    border: 3px solid rgb(170, 10, 103);
+}
+
+.CookieCutter{
+    border: 2px dotted green;
+    width: 150px;
+    height: 100px;
+    /* wie soll mit Inhalten umgegangen werden, 
+    die größer sind als es selber. hidden -> versteckt */
+    overflow: hidden;
+}
+
+.cookieImg{
+    /* breite und höhe 100% des umliegenden elementes*/
+    width: auto;
+    height: 100%;
+}
+
+
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lnag = "de">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Schreinerei Meier</title>
+    </head>
+	
+	<body>
+		<h1> Schreinerei Meier, ihre Werkstatt für gutes Wohnen</h1>	
+		 <nav>
+    <ul>
+      <li><a tabindex="0" aria-current="page">Startseite</a></li>
+      <li><a href="inhalt.html">Bilder von unseren Produkten</a></li>
+      <li><a href="preise.html">Unsere Preise</a></li>
+      <li><a href="kontakt.html">Kontakt und Impressum</a></li>
+    </ul>
+    </nav>
+		<p><h2> Willkommen bei der Schreinerei Meier im Internet!</h2></p>
+		<p> Wir sind seit vielen Jahren darauf spezialisiert, alle Kundenwünsche zu erfüllen. In unserer 
+Werkstatt produzieren wir selbst - mit Holz aus regionaler, nachhaltiger Forstwirtschaft.</p>
+		<p> <h2>Unsere Leistungen:</h2></p>
+		
+		<ul>
+			<li>Möbel nach Ihren Wünschen </li>
+			<li>Küchenmöbel</li>
+			<li>Regale und Schrankwände</li>
+			<li>Badezimmermöbel</li>
+			<li>Haustüren</li>
+			<li>Gartenzäune</li>
+			<li>Reparaturen</li> 
+		</ul>
+			
+		<p><h2>Unsere Geschichte</h2></p>
+		
+		
+			
+
+
+
+
+	</body>
+</html>
